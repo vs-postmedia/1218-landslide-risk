@@ -47,8 +47,15 @@
         <iframe src={flourishStoryUrl} frameborder='0' scrolling='no' style="width:100%;height:{chartHeight};" title="flourish-embed"></iframe>
     </div>
 
-    <!-- flourish logo -->
-    <div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/3706064/?utm_source=embed&utm_campaign=visualisation/3706064' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+    <footer>
+        <p class="source">Source:
+            <a href="https://web.viu.ca/earle/howe-sound/" target="_blank">Geological Survey of Canada</a>,
+            <a href="https://www.earthdata.nasa.gov/data/instruments/srtm" target="_blank">NASA</a>,
+            <a href="https://www.openstreetmap.org/" target="_blank">OSM.org</a>
+        </p>
+        <!-- flourish logo -->
+        <div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/3706064/?utm_source=embed&utm_campaign=visualisation/3706064' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+    </footer>
 </section>
 
 <ul class="steps">
@@ -76,5 +83,9 @@
         pointer-events: none;
         position: relative;
         z-index: 2;
+    }
+    footer {
+        display: flex;
+        margin-top: 80px;
     }
 </style>
