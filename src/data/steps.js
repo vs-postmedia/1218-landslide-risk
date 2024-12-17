@@ -1,6 +1,6 @@
 export default [
-    '#1: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <span class="scroll-more">Scroll for more...</span>',
-    '#2: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-    '#3: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod <span class="blue-01">tempor incididunt</span> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span class="green-01">exercitation ullamco laboris</span> nisi ut aliquip ex ea commodo consequat.',
-    '#4: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    'Debris flows are common in B.C.’s coastal coastal mountains because heavy rains fall on steep slopes covered in loose sediment. The Sea to Sky Highway between Horseshoe Bay and Britannia has a history of destructive debris flows. <span class="scroll-more">Scroll for more...</span>',
+    'Heavy rains can swell streams along the mountain crest and cause sediment to slide into the rapid waters, forming debris flows.',
+    'Debris flows can pick up trees, sediment and speed as they pass through mountainside canyons.',
+    'As the debris flows exit the canyons, they form a fan that can damage roads, bridges and homes..'
 ];

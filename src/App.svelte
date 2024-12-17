@@ -14,7 +14,7 @@
 
     // SET CHART HEIGH & URL HERE...
     const chartHeight = '575px';
-    const flourishStoryUrl = 'https://flo.uri.sh/story/975711/embed';
+    const flourishStoryUrl = 'https://flo.uri.sh/story/2782064/embed';
 
     // FUNCTIONS
     const updateStep = function(currentStep) {
@@ -39,8 +39,8 @@
 <!-- MARKUP -->
 <section class="scrollyteller sticky">
     <header>
-        <h1>HED</h1>
-        <p class="subhead">TK TK TK</p>
+        <h1>How landslides form in Howe Sound</h1>
+        <!-- <p class="subhead"></p> -->
     </header>
     <div class="chart sticky">
         <!-- svelte-ignore a11y-missing-attribute -->

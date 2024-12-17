@@ -25,11 +25,11 @@
         justify-content: center;
         line-height: 1.25rem;
         opacity: 0.3;
-        place-items: center;
+        place-items: start;
         transition: opacity 300ms ease;
     }
     .step:first-of-type {
-        top: -50%;
+        margin-top: 25%;
         opacity: 1;
     }
     .step.active {
