@@ -77,6 +77,9 @@
         top: 5vh;
         z-index: 1;
     }
+    .chart > iframe {
+        pointer-events: none;
+    }
 
     .steps {
         margin-top: -100%;
