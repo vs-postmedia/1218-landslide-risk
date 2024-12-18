@@ -1,4 +1,6 @@
 <script>
+    import { onMount } from 'svelte';
+
     // CSS
     import normalize from './css/normalize.css';
     import postmedia from './css/postmedia.css';
@@ -34,6 +36,17 @@
             updateStep(currentStep);
         }
     };
+    onMount(() => {
+        document.querySelectorAll('li.step').forEach(step => {
+            step.addEventListener('touchstart', () => {
+                document.querySelector('iframe').style.pointerEvents = 'none';
+            });
+            
+            step.addEventListener('touchend', () => {
+                document.querySelector('iframe').style.pointerEvents = 'auto';
+            });
+        });
+    });
 </script>
 
 <!-- MARKUP -->
@@ -77,13 +90,13 @@
         top: 5vh;
         z-index: 1;
     }
+    
     .chart > iframe {
         pointer-events: none;
     }
 
     .steps {
         margin-top: -100%;
-        pointer-events: none;
         position: relative;
         z-index: 2;
     }

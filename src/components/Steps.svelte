@@ -26,6 +26,7 @@
         line-height: 1.25rem;
         opacity: 0.3;
         place-items: start;
+        touch-action: pan-y;
         transition: opacity 300ms ease;
     }
     .step:first-of-type {
